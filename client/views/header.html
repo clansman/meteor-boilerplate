@@ -36,13 +36,13 @@
                 {{/if}}
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="{{ isActiveRoute 'home' }}"><a href="{{ pathFor 'home' }}"><i class="fa fa-home"></i> Home</a>
+                    <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}"><i class="fa fa-home"></i> Home</a>
                     </li>
-                    <li class="{{ isActivePath 'dashboard' }}"><a href="{{ pathFor 'dashboard' }}"><i class="fa fa-gear"></i> Dashboard</a>
+                    <li class="{{ isActivePath regex='dashboard' }}"><a href="{{ pathFor 'dashboard' }}"><i class="fa fa-gear"></i> Dashboard</a>
                     </li>
-                    <li class="{{ isActivePath 'articles' }}"><a href="{{ pathFor 'articles' }}"><i class="fa fa-pencil"></i> Articles</a>
+                    <li class="{{ isActivePath regex='articles' }}"><a href="{{ pathFor 'articles' }}"><i class="fa fa-pencil"></i> Articles</a>
                     </li>
-                    <li class="{{ isActivePath 'menu' }}"><a href="{{ pathFor 'menu' }}"><i class="fa fa-gear"></i> Menu</a>
+                    <li class="{{ isActivePath regex='menu' }}"><a href="{{ pathFor 'menu' }}"><i class="fa fa-gear"></i> Menu</a>
                     </li>
                 </ul>
             </div>

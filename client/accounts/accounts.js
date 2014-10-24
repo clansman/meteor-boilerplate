@@ -7,7 +7,7 @@ Meteor.startup(function() {
         homeRoute: '/',
         dashboardRoute: '/dashboard',
         profileRoute: '/profile',
-        language: 'en',
+        language: 'ru',
         showSignupCode: false,
         extraSignUpFields: [{
             field: "name",

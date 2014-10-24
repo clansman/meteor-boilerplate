@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "my:accounts-entry": {
+            "git": "git@github.com:clansman/accounts-entry.git"
+        }
+    }
+}

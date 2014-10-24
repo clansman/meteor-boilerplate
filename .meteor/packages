@@ -13,8 +13,6 @@ iron:router
 zimme:iron-router-active
 manuelschoebel:ms-seo
 cmather:handlebars-server@0.2.0
-joshowens:accounts-entry
-joshowens:simple-form
 meteorhacks:zones
 dburles:collection-helpers
 reywood:publish-composite
@@ -26,4 +24,4 @@ dburles:factory
 anti:fake
 cunneen:mailgun
 spiderable
-
+my:accounts-entry
