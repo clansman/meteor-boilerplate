@@ -12,7 +12,6 @@ Template.profile.helpers({
     ];
   }
 });
-
 Template.profile.events({
   'submit form': function(event) {
     event.preventDefault();

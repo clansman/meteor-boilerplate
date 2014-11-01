@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-coffeescript
 less
 accounts-ui
 accounts-password
@@ -16,7 +15,6 @@ cmather:handlebars-server@0.2.0
 meteorhacks:zones
 dburles:collection-helpers
 reywood:publish-composite
-mrt:moment
 mrt:underscore-string-latest
 matb33:collection-hooks
 fuatsengul:iron-router-auth
@@ -25,3 +23,6 @@ anti:fake
 cunneen:mailgun
 spiderable
 my:accounts-entry
+coffeescript
+mrt:moment
+
